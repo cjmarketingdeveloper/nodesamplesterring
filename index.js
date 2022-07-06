@@ -7,7 +7,7 @@ const cors = require('cors');
 dotenv.config();
 
 //Connect locally
-mongoose.connect(process.env.MONGO_URL_LOCAL, {
+mongoose.connect(process.env.MONGO_URL_LIVE, {
     useNewUrlParser: true,
     useUnifiedTopology: true
  })
